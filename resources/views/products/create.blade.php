@@ -29,14 +29,6 @@
                 @endforeach
             </select>
         </div>
-        <div class="form-group">
-            <label for="brand_id">Brand</label>
-            <select class="form-control" id="brand_id" name="brand_id" required>
-                @foreach($brands as $brand)
-                    <option value="{{ $brand->id }}">{{ $brand->name }}</option>
-                @endforeach
-            </select>
-        </div>
         <button type="submit" class="btn btn-primary">Create Product</button>
     </form>
 @endsection

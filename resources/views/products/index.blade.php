@@ -9,7 +9,6 @@
             <tr>
                 <th>Name</th>
                 <th>Category</th>
-                <th>Brand</th>
                 <th>Price</th>
                 <th>Amount</th>
                 <th>Actions</th>
@@ -20,7 +19,6 @@
                 <tr>
                     <td>{{ $product->name }}</td>
                     <td>{{ $product->category->name }}</td>
-                    <td>{{ $product->brand->name }}</td>
                     <td>{{ $product->price }}₴</td>
                     <td>{{ $product->amount }}</td>
                     <td>
